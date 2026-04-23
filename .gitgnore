@@ -1,0 +1,18 @@
+# 忽略 VS Code 的个性化配置
+.vscode/
+
+# 忽略系统自动生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Python 运行缓存（如果你以后用 Python 连数据库）
+__pycache__/
+*.pyc
+
+# 忽略可能包含密码的环境变量文件
+.env
+
+# 忽略数据库本地导出的临时数据文件
+*.log
+*.csv
+*.xlsx
